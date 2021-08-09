@@ -1304,6 +1304,168 @@ body {
   color: #C9FFC7;
   font-size: 18px; }
 
+.magazalar {
+  width: 100%;
+  height: 1000px; }
+  .magazalar__h2 {
+    font-weight: 700;
+    color: #C9FFC7;
+    margin-bottom: 8px;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center; }
+  .magazalar__p {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    color: silver; }
+  .magazalar__p::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    display: block;
+    background-color: #C9FFC7;
+    margin-top: 10px;
+    margin: 12px auto; }
+  .magazalar__div {
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; }
+    .magazalar__div a {
+      text-decoration: none; }
+    .magazalar__div-1 {
+      width: 140px;
+      height: 80%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 7px;
+      margin-top: 10px;
+      text-align: center;
+      color: white;
+      padding-top: 17px;
+      font-size: 17px;
+      font-weight: 500; }
+    .magazalar__div-2 {
+      width: 140px;
+      height: 80%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 7px;
+      margin-left: 10px;
+      margin-top: 10px;
+      display: flex;
+      padding-left: 16px; }
+      .magazalar__div-2 img {
+        width: 35px; }
+      .magazalar__div-2 h6 {
+        color: white;
+        font-size: 19px;
+        font-weight: 500;
+        padding-left: 8px;
+        margin-top: 17px; }
+    .magazalar__div-3 {
+      width: 100px;
+      height: 80%;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 7px;
+      margin-left: 10px;
+      margin-top: 10px;
+      display: flex;
+      padding-left: 10px; }
+      .magazalar__div-3 img {
+        width: 35px; }
+      .magazalar__div-3 h6 {
+        color: white;
+        font-size: 19px;
+        font-weight: 500;
+        padding-left: 8px;
+        margin-top: 17px; }
+  .magazalar__div1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between; }
+    .magazalar__div1__left {
+      width: 360px;
+      height: 100%;
+      background-color: #3B4046 !important;
+      border-radius: 10px; }
+      .magazalar__div1__left__h2 {
+        color: #C9FFC7;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        padding-left: 37px;
+        padding-top: 29px; }
+      .magazalar__div1__left__ul {
+        list-style-type: none;
+        cursor: pointer; }
+        .magazalar__div1__left__ul li {
+          padding: 10px 10px;
+          margin-left: -7px;
+          margin-top: 10px;
+          border-radius: 7px;
+          width: 96%; }
+          .magazalar__div1__left__ul li:hover {
+            background-color: rgba(201, 255, 199, 0.1); }
+            .magazalar__div1__left__ul li:hover span {
+              color: #C9FFC7;
+              color: #C9FFC7; }
+        .magazalar__div1__left__ul span {
+          color: white;
+          font-size: 18px;
+          margin-top: 10px;
+          margin-left: 10px; }
+    .magazalar__div1__rigth {
+      margin-right: 90px;
+      width: 600px;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .magazalar__div1__rigth-1 {
+        width: 170px;
+        height: 170px;
+        border-radius: 7px;
+        background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-190.png);
+        background-repeat: no-repeat;
+        background-size: 115px 47px;
+        background-color: white;
+        background-position: center; }
+      .magazalar__div1__rigth-2 {
+        width: 170px;
+        height: 170px;
+        border-radius: 7px;
+        background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-189.png);
+        background-repeat: no-repeat;
+        background-size: 115px 47px;
+        background-color: white;
+        background-position: center; }
+      .magazalar__div1__rigth-3 {
+        width: 170px;
+        height: 170px;
+        border-radius: 7px;
+        background-repeat: no-repeat;
+        background-size: 115px 47px;
+        background-color: white;
+        background-position: center;
+        background-image: url(https://velocity.az/frontend/web/uploads//images/store/store-188.png); }
+
+.activ-3 {
+  background-color: #3B4046;
+  color: #C9FFC7;
+  border: none; }
+  .activ-3 h6 {
+    color: #C9FFC7; }
+
+.active-5 {
+  background-color: #22252C; }
+  .active-5 span {
+    color: #C9FFC7; }
+
 @font-face {
   font-family: 'Yolk';
   src: url("../fonts/Yolk-Bold.eot");
