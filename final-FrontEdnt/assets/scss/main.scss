@@ -1,0 +1,36 @@
+// Components
+
+@import "./base";
+@import "./mixins";
+@import "./variables";
+@import "./typography";
+
+//helper
+@import"./companent/button";
+
+// Pages
+@import "./pages/navbar";
+@import "./pages/main";
+@import "./pages/section";
+@import "./pages/section-2";
+@import "./pages/tarifler";
+@import "./pages/store";
+@import "./pages/store";
+@import "./pages/new";
+@import "./pages/footer";
+@import "./pages/about";
+@import "./pages/services";
+@import "./pages/news";
+@import "./pages/hesabim";
+
+
+
+
+
+// fonts
+@import"./font";
+
+//icon
+@import"./icons";
+
+

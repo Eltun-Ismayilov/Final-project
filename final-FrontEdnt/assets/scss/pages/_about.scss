@@ -1,0 +1,46 @@
+.about{
+    width: 100%;
+    height: 1000px;
+    // border: 3px solid whitesmoke;
+    margin-top: 30px;
+    display: flex;
+    border-radius: 8px;
+    &__left{
+        width: 730px;
+        height: 650px;
+        border-radius: 8px;
+        background-image: url(https://velocity.az/front/img/vector/Vector-about.svg);
+        background-size: cover;
+        background-position: -114px -12px;
+        background-repeat: no-repeat;
+        background-color: #3B4046 !important;
+        position: absolute;
+
+        &__h2{
+           font-weight: 700;
+           color: $color-hover;
+           font-size: 40px;
+           line-height: 56px;
+           padding-left: 62px;
+           padding-top: 62px;
+        }
+        &__p{
+            font-size: 16px !important;
+            line-height: 37px !important;
+            color: $color-text;
+            padding-left: 62px;
+        }
+
+
+    }
+    &__rigth{
+        width: 700px;
+        height: 600px;
+        border-radius: 8px;
+        margin-left: 46%;
+        margin-top: 33%;
+        background-image: url(https://velocity.az/frontend/web/uploads//images/about/about-image.png);
+
+        
+    }
+}

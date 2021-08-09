@@ -1,0 +1,92 @@
+.new{
+    width: 100%;
+    height: 750px;
+    background-color: #3B4046 !important;
+
+    background-image: url(https://velocity.az/front/img/vector/Vector-news.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+
+
+    &__left{
+        width: 460px;
+        height: 100%;
+        &__h2{
+            font-weight: 700;
+            color: $color-hover;
+            margin-bottom: 8px;
+            font-size: 40px;
+            line-height: 56px;
+            padding-left: 61px;
+            padding-top: 69px;
+        }
+        &__p{
+            font-size: 17px;
+            line-height: 25px;
+            max-width: 800px;
+            color: $color-text;
+            margin-left: 63px;
+            width: 300px;
+        }
+        &__button{
+            @include button-big;
+            margin-left: 63px;
+            margin-top: 100px;
+            &:hover{
+                background-color: $color-primary;
+                border: 1px solid $color-hover;
+                transition: .6s;
+            }
+        }
+    }
+
+    &__rigth{
+        width: 800px;
+        height: 100%;
+
+        &__col{
+            width:100%;
+            height: 195px;
+            margin-top: 50px;
+            display: flex;
+            &__left{
+                width: 280px;
+                height: 100%;
+                background-image: url(https://velocity.az/frontend/web/uploads//images/slider/unnamed-1dnsda.jpg);
+            }
+            &__rigth{
+                width: 400px;
+                height: 100%;
+                &__h5{
+                    font-weight: 700;
+                    color: $color-white;
+                    font-size: 20px;
+                    margin-left: 41px;
+                    margin-top: 43px;
+                    cursor: pointer;
+                    &:hover{
+                        color: $color-hover;
+                        transition: .5s;
+                    }
+                }
+                &__p{
+                    font-size: 15px;
+                    color: $color-text;
+                    margin-left: 43px;
+                }
+                &__p2{
+                    color: $color-hover;
+                    margin-left: 41px;
+                    margin-top: -16px;
+                    font-size: 18px;
+                }
+            }
+           
+        }
+    }
+
+    image{
+        background-image: url(https://velocity.az/frontend/web/uploads//images/slider/saytkicikoolcuuu.jpg);
+    }
+}
