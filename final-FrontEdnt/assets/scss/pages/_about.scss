@@ -15,6 +15,9 @@
         background-repeat: no-repeat;
         background-color: #3B4046 !important;
         position: absolute;
+        @include respons(phone){
+            // margin-left: -70px;
+        }
 
         &__h2{
            font-weight: 700;

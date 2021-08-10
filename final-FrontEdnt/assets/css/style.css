@@ -12,6 +12,9 @@ body {
   width: 100%;
   height: 56px;
   background-color: #3B4046; }
+  @media screen and (max-width: 760px) {
+    .navbar-top {
+      display: none; } }
   .navbar-top__navbar {
     width: 100%;
     height: 56px;
@@ -142,6 +145,158 @@ body {
     opacity: 1;
     transform: translateY(-20px); } }
 
+.navbar-bottom {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between; }
+  .navbar-bottom__left {
+    width: 77%;
+    height: 100%; }
+  .navbar-bottom__rigth {
+    width: 23%;
+    height: 100%;
+    display: flex;
+    font-family: "Yolk"; }
+    .navbar-bottom__rigth .hesabim-a {
+      margin-left: 8px;
+      color: white;
+      font-family: "Yolk"; }
+      @media screen and (max-width: 760px) {
+        .navbar-bottom__rigth .hesabim-a {
+          display: none; } }
+    .navbar-bottom__rigth a {
+      text-decoration: none;
+      margin-left: 84px;
+      font-size: 20px;
+      margin-top: 14px; }
+      .navbar-bottom__rigth a:hover .fa-user {
+        color: #C9FFC7;
+        transition: .6s; }
+      .navbar-bottom__rigth a:hover .hesabim-a {
+        color: #C9FFC7;
+        transition: .6s; }
+    .navbar-bottom__rigth span {
+      color: white;
+      font-family: "Yolk";
+      font-size: 17px;
+      margin-left: 10px; }
+      @media screen and (max-width: 760px) {
+        .navbar-bottom__rigth span {
+          display: none; } }
+    .navbar-bottom__rigth p {
+      color: white; }
+    @media screen and (max-width: 760px) {
+      .navbar-bottom__rigth .fa-user {
+        font-size: 40px;
+        margin-top: 7px;
+        margin-left: 50px; } }
+
+nav {
+  height: 100%;
+  width: 100%; }
+  @media screen and (max-width: 760px) {
+    nav {
+      width: 132%;
+      height: auto; } }
+
+.logo a {
+  color: white; }
+  @media screen and (max-width: 760px) {
+    .logo a {
+      color: greenyellow; } }
+  .logo a img {
+    margin-top: -27px; }
+
+.logo {
+  font-size: 22px;
+  line-height: 80px;
+  font-weight: bold; }
+  @media screen and (max-width: 760px) {
+    .logo {
+      margin-left: 34%;
+      font-size: 24px;
+      margin-top: 10px; } }
+
+nav ul {
+  float: right; }
+  @media screen and (max-width: 760px) {
+    nav ul {
+      position: fixed;
+      width: 88.5%;
+      top: -200%;
+      left: 52px;
+      text-align: left;
+      transition: all .5s;
+      background-color: white; } }
+
+nav ul li {
+  display: inline-block;
+  margin-left: 21px;
+  margin-top: 18px; }
+  @media screen and (max-width: 760px) {
+    nav ul li {
+      display: block;
+      line-height: 40px; } }
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: "Yolk"; }
+  @media screen and (max-width: 760px) {
+    nav ul li a {
+      font-size: 22px;
+      color: white;
+      margin-top: 20px; } }
+
+#camo:hover {
+  color: #C9FFC7;
+  transition: .5s; }
+  @media screen and (max-width: 760px) {
+    #camo:hover {
+      background-color: none;
+      color: #C9FFC7; } }
+
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: left;
+  margin-left: -50px;
+  line-height: 80px;
+  cursor: pointer;
+  display: none; }
+  @media screen and (max-width: 760px) {
+    .checkbtn {
+      display: block; } }
+
+#check {
+  display: none; }
+
+#check:checked ~ ul {
+  top: 140px;
+  background-color: #2c3e50;
+  border-radius: 10px; }
+
+@media screen and (max-width: 760px) {
+  .icons {
+    display: none; } }
+
+.icons-1 {
+  color: white; }
+
+.icons:hover .fa-car {
+  color: #C9FFC7; }
+
+.icons:hover p {
+  color: #C9FFC7; }
+
+.hesabim-a:hover {
+  color: #C9FFC7; }
+
 .carousel {
   background: #EEE;
   border-radius: 15px;
@@ -152,10 +307,6 @@ body {
   margin-top: 40px;
   background-color: #22252C;
   filter: drop-shadow(8px 8px 10px gray); }
-  @media screen and (max-width: 800px) {
-    .carousel {
-      width: 300%;
-      margin-top: 100px; } }
 
 .carousel-cell {
   width: 100%;
@@ -462,7 +613,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 45px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 760px) {
     .how-to-use {
       width: 300%; } }
   .how-to-use .left-side {
@@ -540,7 +691,7 @@ body {
   height: 840px;
   background-color: #3B4046;
   margin-top: 60px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 760px) {
     .Tariffs {
       width: 300%; } }
   .Tariffs__h2 {
@@ -866,6 +1017,9 @@ body {
   .footer__nav li a {
     text-decoration: none;
     color: white; }
+    @media screen and (max-width: 760px) {
+      .footer__nav li a {
+        margin-left: -53px; } }
     .footer__nav li a:hover {
       color: #afe7af; }
 
@@ -880,6 +1034,16 @@ body {
     padding-left: 40px; }
     .footer-bottom .social-icons_link:hover {
       color: #C9FFC7; }
+
+@media screen and (max-width: 760px) {
+  .icon-lg {
+    display: block;
+    margin-left: 30px; } }
+
+@media screen and (max-width: 760px) {
+  .footer-bottom a {
+    display: block;
+    margin-left: 30px; } }
 
 .about {
   width: 100%;

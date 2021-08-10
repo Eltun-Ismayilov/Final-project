@@ -24,172 +24,175 @@
 </head>
 <body style="background-color: #22252C; ">
 
-    <!-- header -->
-    <header >
+    
+  
+    <!-- navbar top -->
+    <header>
+      <div class="navbar-top">
+          <div class="container">
+             <div class="navbar-top__navbar">
+              <div class="navbar-top__navbar__left">
+                  <span class="navbar-top__navbar__left__span">Daşınmasına icazə yoxdur</span>
+                  <span class="navbar-top__navbar__left__span1">Tez-tez verilən suallar</span>
+              </div>
+              <div class="navbar-top__navbar__rigth">
 
-            <!-- navbar-top  -->
+                  <div class="navbar-top__navbar__rigth__currency-top">
+                      <span class="navbar-top__navbar__rigth__currency-top__citem-1"> 1 TRY - 0.20 AZN </span>
+                      <span class="navbar-top__navbar__rigth__currency-top__citem-2"> 1 USD - 1.70 AZN </span>
+                  </div>
+                  <div class="navbar-top__navbar__rigth__a">
+                     <i class="icon-phone_two_tone"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+                     <span>+994123108707</span>
+                  </div>
+                  <div class="navbar-top__navbar__rigth__select">
 
-        <div class="navbar">
+                      <select name="cars" id="cars">
+                          <option style="display: none;" value="volvo">AZE</option>
+                          <option value="saab">ENG</option>
+                          <option value="opel">RUS</option>
+                      </select>
+                      
+                   </div>
+                   <div class="navbar-top__navbar__rigth__button">
+                     Qeydiyyat
+                   </div>
+                 
 
-            <div class="container">
-                <div class="col-6" class="navbar__left">
-                    <p class="navbar__left__p">Daşınmasına icazə yoxdur</p>
-                    <p class="navbar__left__p1">Tez-tez verilən sualla</p>
-                </div>
-                <div style="margin-top: -10px;" class="col-6" class="navbar__rigth">
-                    <div class="navbar__rigth__currency-top">
-                        <span class="navbar__rigth__currency-top__citem-1">1 TRY - 0.20 AZN</span>
-                        <span class="navbar__rigth__currency-top__citem-2">1 USD - 1.70 AZN</span>
-                    </div>
-                    <div class="navbar__rigth__a" href="tel:9940775663161">
+              </div>
+             </div>
+          </div>
 
-                        <!-- <p class="fa fa-phone navbar__rigth__a__p"></p> -->
-                        <i style="margin-left: -10px;margin-top: 10px;" class="icon-phone_two_tone "><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
-                        <span class="navbar__rigth__a__span">+9940775663161</span>
+      </div>
+  </header> 
 
-                    </div>
-                    <div class="navbar__rigth__select" >
-                        <select name="cars" id="cars">
-                            <option style="display: none;" value="volvo">AZE</option>
-                            <option value="saab">ENG</option>
-                            <option value="opel">RUS</option>
-                          </select>
-                    </div>
-                    <button class="navbar__rigth__button">Qeydiyyat</button>
+  <!-- navbar bottom -->
 
-            </div>
-       
-        </div>
-        </div>
 
-        <!-- navbar-bottom -->
-        <div class="container">
-            <nav>
-            <div class="navbar-bottom">
-                <nav>
-                    <ul class="navbar-bottom__ul">
-                        <li class="navbar-bottom__ul__li-1">
-                            <a href="./index.html">
-                                <img src="https://velocity.az/front/img/logo/logo.svg" alt="">
-                            </a>
-                        </li>
-                        <li style="margin-left:10px" class="navbar-bottom__ul__li">
-                            <a href="">HAQQIMIZDA</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="">Tarifler</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="./services.html">Xidmetler</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="./magazalar.html">Magazalar</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="./new.html">Yenilikler</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="">Elaqe</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li-2">
-                            <p  style="font-size: 25px; cursor: pointer; margin-left: 25px;" class="fa fa-user"></p>
-                            <!-- <i class="icon-user_two_tone"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i> -->
-                            <a href="./hesabim.html">Hesabim</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li-3">
-                            <p style="font-size: 20px;" class="fa fa-car"></p>
-                            <sup>
-                                <p >
-                                    0
-                                </p>
-                            </sup>
-                        </li>
-                       
-                    </ul>
-                </nav>
+  <header class="basdiq">
+      <div class="container">
+          <div class="navbar-bottom">
+              <div class="navbar-bottom__left">
+                      <nav>
+                          <input type="checkbox" id="check">
+                          <label for="check" class="checkbtn">
+                              <p style="color: greenyellow;" class="fa fa-car"></p>
+              
+                          </label>
+                          <label class="logo"><a style="text-decoration: none;" href="./index.html">
+                          <img src="https://velocity.az/front/img/logo/logo.svg" alt="">
+                           </a>
+                           </label>
+                          <ul>
+                              <li><a id="camo" href="./about.html">HAQQIMIZDA</a></li>
+                              <li><a id="camo" href="">TARİFLƏR</a></li>
+                              <li><a id="camo" href="./services.html">XİDMƏTLƏR</a></li>
+                              <li><a id="camo" href="./magazalar.html">MAĞAZALAR</a></li>
+                              <li><a id="camo" href="./new.html">YENİLİKLƏR</a></li>
+                              <li><a id="camo" href="">ƏLAQƏ</a></li>
+                        
+                          </ul>
+                      </nav>
+          
+                  
 
-                <!-- <a href="./index.html">
-                    <img src="https://velocity.az/front/img/logo/logo.svg" alt="">
-                    
-                </a> -->
-                
-            </div>
-            </nav>
-        </div>
-    </header>
+              </div>
+              <div class="navbar-bottom__rigth">
+
+                <a href="">
+                  <p  class="fa fa-user"></p>
+               
+                  <a class="hesabim-a" href="./hesabim.html">Hesabim</a>
+                  
+              </a>
+                 
+                  <a class="icons" style="margin-left:30px ;" href="">
+                      <p aria-colcount="icons-1"  class="fa fa-car"></p>
+                      <p style="width: 30px;height: 30px;background-color: red;border-radius: 50%;margin-top: -60px;margin-left: 14px;padding-left: 8px;padding-top: -4px;">0</p>
+                      
+
+
+                  </a>
+                 
+
+              </div>
+
+
+
+
+          </div>
+      </div>
+    
+  </header>
 
    
-  
+   
     <!-- about -->
 
     <div class="container">
-        <div class="about">
-            <div data-aos="fade-left" class="about__left">
+      <div class="about">
+          <div data-aos="fade-left" class="about__left">
 
-                <h2 class="about__left__h2">HAQQIMIZDA</h2>
-                <p class="about__left__p">                  
-                    Biz Kimik ?<br>
-                  “Velocity”  Sürətli poçt daşıma şirkətidir. <br>
-                  “Velocity ” Azərbaycan Respublikasının qanunvericiliyinə uyğun olaraq əldə etdiyi <br> lisenziya ilə həm ölkədaxili,həmdə beynəlxalq poçt bağlamalarının sürətli və etibarlı bir <br> şəkildə çatdırılmasını həyata keçirir. "Velocity"Türkiyəvə ABŞ-ın onlayn <br> mağazalarından əldə etdiyiniz məhsulların ölkəmizə çatdırılmasını ən sərfəli qiymətlərlə <br> ənkeyfiyyətli şəkildə həyata keçirir. “Velocity ” -nin əsas məqsədi müştərilərinin <br> məmnuniyyətini ən üst səviyyədəqoruyaraq onlara sərfəli qiymətlər ilə yüksək səviyyəli <br> xidmət göstərməkdir.“Velocity ”  ABŞ və Türkiyədən                   poçtbağlamalarının, onlayn alış- <br> mağazaları vasitəsilə sifariş edilən məhsulların, eləcə də böyük həcmli və ağır <br> çəkili qeyri-standart yüklərin tez bir zaman ərzində hava nəqliyyatı ilə Azərbaycana <br> çatdırılmasını təmin edir.
-                </p>
-
-
-
-            </div>
-            <div class="about__rigth"></div>
-        </div>
-    </div>
-
-    <!-- section-2 -->
-
-    <section>
-        <div class="container">
-            <h1 style="margin-top: 70px;">Necə işləyirik?</h1>
-            <div class="how-to-use">
-                <div data-aos="flip-left" class="left-side ">
-                    <div class="font-how-to">
-                        <!-- <i class="fas fa-car" ></i> -->
-                        <i class="icon-map-outline_two_tone icon-lg icon-outline"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></i>
-
-                    </div>
-                    <h4>Qeydiyyatdan keç</h4>
-                    <div class="box-text">Saytımızda qeydiyyatdan keçməklə, xaricdə daimi ünvana sahib olun</div>
-                    <button class="btn-etrafli ">Ətraflı
-                        
-                    </button>
-
-
-                </div>
-                <div data-aos="flip-left" class="left-side ">
-                    <div class="font-how-to">
-                        <i class="icon-credit-card_two_tone icon-lg icon-outline"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
-                    </div>
-                    <h4>Ödəmə et</h4>
-                    <div class="box-text">Visa, Master bank kartları E-Manat vasitəsi ilə ödəniş Yerində nəğd ödəniş</div>
-                    <button class="btn-etrafli ">Etrafli</button>
-
-
-                </div>
-                <div data-aos="flip-left" class="left-side ">
-                    <div class="font-how-to">
-                        <i class="icon-Package-v2_two_tone icon-lg icon-outline"><span class="path1"></span><span class="path2"></span></i>
-                    </div>
-                    <h4>Bağlamanı əldə et</h4>
-                    <div class="box-text">Bağlamanı Bakı anbarımızdan əldə edə və ya kuryer xidmətimizdən istifadə edən :)</div>
-                    <button class="btn-etrafli ">Etrafli</button>
-
-
-                </div>
-            </div>
-        </div>
-    </section>
+              <h2 class="about__left__h2">HAQQIMIZDA</h2>
+              <p class="about__left__p">                  
+                  Biz Kimik ?<br>
+                “Velocity”  Sürətli poçt daşıma şirkətidir. <br>
+                “Velocity ” Azərbaycan Respublikasının qanunvericiliyinə uyğun olaraq əldə etdiyi <br> lisenziya ilə həm ölkədaxili,həmdə beynəlxalq poçt bağlamalarının sürətli və etibarlı bir <br> şəkildə çatdırılmasını həyata keçirir. "Velocity"Türkiyəvə ABŞ-ın onlayn <br> mağazalarından əldə etdiyiniz məhsulların ölkəmizə çatdırılmasını ən sərfəli qiymətlərlə <br> ənkeyfiyyətli şəkildə həyata keçirir. “Velocity ” -nin əsas məqsədi müştərilərinin <br> məmnuniyyətini ən üst səviyyədəqoruyaraq onlara sərfəli qiymətlər ilə yüksək səviyyəli <br> xidmət göstərməkdir.“Velocity ”  ABŞ və Türkiyədən                   poçtbağlamalarının, onlayn alış- <br> mağazaları vasitəsilə sifariş edilən məhsulların, eləcə də böyük həcmli və ağır <br> çəkili qeyri-standart yüklərin tez bir zaman ərzində hava nəqliyyatı ilə Azərbaycana <br> çatdırılmasını təmin edir.
+              </p>
 
 
 
-   
+          </div>
+          <div class="about__rigth"></div>
+      </div>
+  </div>
+
+  <!-- section-2 -->
+
+  <section>
+      <div class="container">
+          <h1 style="margin-top: 70px;">Necə işləyirik?</h1>
+          <div class="how-to-use">
+              <div data-aos="flip-left" class="left-side ">
+                  <div class="font-how-to">
+                      <i class="icon-map-outline_two_tone icon-lg icon-outline"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></i>
+
+                  </div>
+                  <h4>Qeydiyyatdan keç</h4>
+                  <div class="box-text">Saytımızda qeydiyyatdan keçməklə, xaricdə daimi ünvana sahib olun</div>
+                  <button class="btn-etrafli ">Ətraflı
+                      
+                  </button>
+
+
+              </div>
+              <div data-aos="flip-left" class="left-side ">
+                  <div class="font-how-to">
+                      <i class="icon-credit-card_two_tone icon-lg icon-outline"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+                  </div>
+                  <h4>Ödəmə et</h4>
+                  <div class="box-text">Visa, Master bank kartları E-Manat vasitəsi ilə ödəniş Yerində nəğd ödəniş</div>
+                  <button class="btn-etrafli ">Etrafli</button>
+
+
+              </div>
+              <div data-aos="flip-left" class="left-side ">
+                  <div class="font-how-to">
+                      <i class="icon-Package-v2_two_tone icon-lg icon-outline"><span class="path1"></span><span class="path2"></span></i>
+                  </div>
+                  <h4>Bağlamanı əldə et</h4>
+                  <div class="box-text">Bağlamanı Bakı anbarımızdan əldə edə və ya kuryer xidmətimizdən istifadə edən :)</div>
+                  <button class="btn-etrafli ">Etrafli</button>
+
+
+              </div>
+          </div>
+      </div>
+  </section>
+
 
   <!-- footer -->
-  <footer style="margin-top: 50px;" class="footer">
+  <footer style="margin-top: 60px;" class="footer">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -207,7 +210,7 @@
               <i style="margin-left: -40px;" class="icon-email_two_tone icon-lg icons"><span class="path1"></span><span class="path2"></span><span
                   class="path3"></span></i>
               
-                  <a  href="#">info@velocity.az</a>
+                  <a  href="#"><span> info@velocity.az </span></a>
 
             </li>
             <li>
@@ -250,6 +253,13 @@
       </div>
   </div>
   </footer>
+
+
+
+
+
+   
+
 
 
 

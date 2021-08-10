@@ -27,99 +27,105 @@
 </head>
 <body style="background-color: #22252C;">
 
-    <!-- header -->
-    <header >
+ 
+  
+    <!-- navbar top -->
+    <header>
+      <div class="navbar-top">
+          <div class="container">
+             <div class="navbar-top__navbar">
+              <div class="navbar-top__navbar__left">
+                  <span class="navbar-top__navbar__left__span">Daşınmasına icazə yoxdur</span>
+                  <span class="navbar-top__navbar__left__span1">Tez-tez verilən suallar</span>
+              </div>
+              <div class="navbar-top__navbar__rigth">
 
-            <!-- navbar-top  -->
+                  <div class="navbar-top__navbar__rigth__currency-top">
+                      <span class="navbar-top__navbar__rigth__currency-top__citem-1"> 1 TRY - 0.20 AZN </span>
+                      <span class="navbar-top__navbar__rigth__currency-top__citem-2"> 1 USD - 1.70 AZN </span>
+                  </div>
+                  <div class="navbar-top__navbar__rigth__a">
+                     <i class="icon-phone_two_tone"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+                     <span>+994123108707</span>
+                  </div>
+                  <div class="navbar-top__navbar__rigth__select">
 
-        <div class="navbar">
+                      <select name="cars" id="cars">
+                          <option style="display: none;" value="volvo">AZE</option>
+                          <option value="saab">ENG</option>
+                          <option value="opel">RUS</option>
+                      </select>
+                      
+                   </div>
+                   <div class="navbar-top__navbar__rigth__button">
+                     Qeydiyyat
+                   </div>
+                 
 
-            <div class="container">
-                <div class="col-6" class="navbar__left">
-                    <p class="navbar__left__p">Daşınmasına icazə yoxdur</p>
-                    <p class="navbar__left__p1">Tez-tez verilən suallar</p>
-                </div>
-                <div style="margin-top: -10px;" class="col-6" class="navbar__rigth">
-                    <div class="navbar__rigth__currency-top">
-                        <span class="navbar__rigth__currency-top__citem-1">1 TRY - 0.20 AZN</span>
-                        <span class="navbar__rigth__currency-top__citem-2">1 USD - 1.70 AZN</span>
-                    </div>
-                    <div class="navbar__rigth__a" href="tel:9940775663161">
+              </div>
+             </div>
+          </div>
 
-                        <!-- <p class="fa fa-phone navbar__rigth__a__p"></p> -->
-                        <i style="margin-left: -10px;margin-top: 10px;" class="icon-phone_two_tone "><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
-                        <span class="navbar__rigth__a__span">+9940775663161</span>
+      </div>
+  </header> 
 
-                    </div>
-                    <div class="navbar__rigth__select" >
-                        <select name="cars" id="cars">
-                            <option style="display: none;" value="volvo">AZE</option>
-                            <option value="saab">ENG</option>
-                            <option value="opel">RUS</option>
-                          </select>
-                    </div>
-                    <button class="navbar__rigth__button">Qeydiyyat</button>
+  <!-- navbar bottom -->
 
-            </div>
-       
-        </div>
-        </div>
 
-        <!-- navbar-bottom -->
-        <div class="container">
-            <nav>
-            <div class="navbar-bottom">
-                <nav>
-                    <ul class="navbar-bottom__ul">
-                        <li class="navbar-bottom__ul__li-1">
-                            <a href="./index.html">
-                                <img src="https://velocity.az/front/img/logo/logo.svg" alt="">
-                            </a>
-                        </li>
-                        <li style="margin-left:10px" class="navbar-bottom__ul__li">
-                            <a href="./about.html">HAQQIMIZDA</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="">Tarifler</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="./services.html">Xidmetler</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="./magazalar.html">Magazalar</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="./new.html">Yenilikler</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li">
-                            <a href="">Elaqe</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li-2">
-                            <p  style="font-size: 25px; cursor: pointer; margin-left: 25px;" class="fa fa-user"></p>
-                            <!-- <i class="icon-user_two_tone"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></i> -->
-                            <a href="./hesabim.html">Hesabim</a>
-                        </li>
-                        <li class="navbar-bottom__ul__li-3">
-                            <p style="font-size: 20px;" class="fa fa-car"></p>
-                            <sup>
-                                <p >
-                                    0
-                                </p>
-                            </sup>
-                        </li>
-                       
-                    </ul>
-                </nav>
+  <header class="basdiq">
+      <div class="container">
+          <div class="navbar-bottom">
+              <div class="navbar-bottom__left">
+                      <nav>
+                          <input type="checkbox" id="check">
+                          <label for="check" class="checkbtn">
+                              <p style="color: greenyellow;" class="fa fa-car"></p>
+              
+                          </label>
+                          <label class="logo"><a style="text-decoration: none;" href="./index.html">
+                          <img src="https://velocity.az/front/img/logo/logo.svg" alt="">
+                           </a>
+                           </label>
+                          <ul>
+                              <li><a id="camo" href="./about.html">HAQQIMIZDA</a></li>
+                              <li><a id="camo" href="">TARİFLƏR</a></li>
+                              <li><a id="camo" href="./services.html">XİDMƏTLƏR</a></li>
+                              <li><a id="camo" href="./magazalar.html">MAĞAZALAR</a></li>
+                              <li><a id="camo" href="./new.html">YENİLİKLƏR</a></li>
+                              <li><a id="camo" href="">ƏLAQƏ</a></li>
+                        
+                          </ul>
+                      </nav>
+          
+                  
 
-                <!-- <a href="./index.html">
-                    <img src="https://velocity.az/front/img/logo/logo.svg" alt="">
-                    
-                </a> -->
-                
-            </div>
-            </nav>
-        </div>
-    </header>
+              </div>
+              <div class="navbar-bottom__rigth">
+
+                  <a href="">
+                      <p  class="fa fa-user"></p>
+                      <span>Hesabım</span>
+                  </a>
+                 
+                  <a class="icons" style="margin-left:30px ;" href="">
+                      <p aria-colcount="icons-1"  class="fa fa-car"></p>
+                      <p style="width: 30px;height: 30px;background-color: red;border-radius: 50%;margin-top: -60px;margin-left: 14px;padding-left: 8px;padding-top: -4px;">0</p>
+                      
+
+
+                  </a>
+                 
+
+              </div>
+
+
+
+
+          </div>
+      </div>
+    
+  </header>
+
 
     <!-- service -->
 

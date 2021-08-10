@@ -58,6 +58,9 @@ color:rgb(175, 231, 175);
     a{
         text-decoration: none;
         color: white ;
+        @include respons(phone){
+            margin-left: -53px;
+        }
         &:hover {
             color: rgb(175, 231, 175)
         }
@@ -85,4 +88,16 @@ color:rgb(175, 231, 175);
    
 }
 
+.icon-lg {
+    @include respons(phone){
+        display: block;
+        margin-left: 30px;
+    }
+}
 
+.footer-bottom a{
+    @include respons(phone){
+        display: block;
+        margin-left: 30px;
+    }
+}
