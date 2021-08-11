@@ -5,12 +5,12 @@
     margin-top: 20px;
     display: flex;
     padding: 24px;
-
     border-radius: 8px;
     margin-bottom: 88px;
+    justify-content: space-between;
 
     &__left{
-        width: calc(100%-328px);
+        width: 794px;
         height: 634px;
         padding: 24px 48px 40px 24px;
 
