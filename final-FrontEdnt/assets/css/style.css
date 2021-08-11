@@ -1722,6 +1722,161 @@ body {
     margin-top: -14px;
     font-family: "Yolk"; }
 
+.qeydiyyat {
+  width: 100%;
+  height: 832px;
+  background-color: #3B4046;
+  margin-top: 20px;
+  display: flex;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 88px; }
+  .qeydiyyat__left {
+    width: calc(100%-328px);
+    height: 634px;
+    padding: 24px 48px 40px 24px; }
+    .qeydiyyat__left__basliq {
+      width: 722px;
+      height: 92px;
+      text-align: center;
+      margin-bottom: 48px; }
+      .qeydiyyat__left__basliq__h2 {
+        font-weight: 700;
+        font-family: "Yolk";
+        font-size: 40px;
+        margin-bottom: 8px;
+        line-height: 56px;
+        color: #C9FFC7;
+        margin: 0 0 8px; }
+      .qeydiyyat__left__basliq__p {
+        font-size: 16px;
+        line-height: 28px;
+        font-family: "Yolk";
+        color: silver; }
+    .qeydiyyat__left__button {
+      width: 43%;
+      height: 58px;
+      display: flex;
+      justify-content: center;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      margin: 0 auto;
+      cursor: pointer; }
+      .qeydiyyat__left__button-1 {
+        width: 156px;
+        height: 56px;
+        border-radius: 8px;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 24px;
+        font-weight: 500;
+        background-color: #22252C; }
+      .qeydiyyat__left__button-2 {
+        width: 156px;
+        height: 56px;
+        border-radius: 8px;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 24px;
+        font-weight: 500; }
+    .qeydiyyat__left__input {
+      width: 100%;
+      height: 60px;
+      margin-top: 56px;
+      display: flex;
+      justify-content: space-between; }
+      .qeydiyyat__left__input-left {
+        width: 349px;
+        height: 56px;
+        border-radius: 8px;
+        border: 1px solid #22252C;
+        font-family: "Yolk"; }
+      .qeydiyyat__left__input-rigth {
+        width: 349px;
+        height: 56px;
+        border-radius: 8px;
+        border: 1px solid #22252C;
+        font-family: "Yolk"; }
+  .qeydiyyat__rigth {
+    width: 328px;
+    height: 770px;
+    padding: 0 48px;
+    background-image: url(https://velocity.az/front/img/vector/Vector-lighten.svg);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C9FFC7 !important;
+    background-repeat: no-repeat;
+    flex-direction: column; }
+    .qeydiyyat__rigth__h2 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 56px;
+      margin-bottom: 24px;
+      color: #181C1F;
+      font-family: "Yolk"; }
+    .qeydiyyat__rigth__a {
+      padding: 14px 0;
+      border: 2px solid #181C1F;
+      border-radius: 8px;
+      width: 100% !important;
+      font-weight: 500;
+      font-family: "Yolk";
+      text-decoration: none;
+      color: #181C1F;
+      text-align: center; }
+
+.input-data {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #22252C;
+  border-radius: 8px; }
+
+.input-data input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #22252C;
+  padding-left: 10px;
+  color: white; }
+
+input:focus ~ label,
+input:valid ~ label {
+  transform: translateY(-8px);
+  font-size: 15px; }
+
+.input-data label {
+  position: absolute;
+  left: 0;
+  bottom: 17px;
+  color: grey;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  padding-left: 10px; }
+
+._button {
+  width: 449px;
+  height: 56px;
+  background-color: #C9FFC7;
+  margin-top: 30px;
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+  font-family: "Yolk";
+  padding-top: 15px;
+  cursor: pointer; }
+  ._button:hover {
+    background-color: rgba(201, 255, 199, 0.8);
+    transition: .5s; }
+
 @font-face {
   font-family: 'Yolk';
   src: url("../fonts/Yolk-Bold.eot");

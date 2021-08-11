@@ -31,6 +31,10 @@
 
 
 
+
+  
+
+
     <!-- navbar top -->
     <header>
         <div class="navbar-top">
@@ -69,9 +73,7 @@
                         
                      </div>
                      <div class="navbar-top__navbar__rigth__button">
-                        <a style="text-decoration: none;color: black;font-weight: 400;" href="./qeydiyyat.html">
-                            Qeydiyyat
-                           </a>
+                       Qeydiyyat
                      </div>
                    
 
@@ -143,66 +145,144 @@
  
 
 
-    <!-- danger -->
+
+    <!-- qeydiyyat -->
 
     <div class="container">
-        <div class="danger">
-            <h2 class="danger__h2">Daşınmasına icazə yoxdur</h2>
-            <p class="danger__p">Türkiyə və ABŞ-dan daşınması qadağan məhsulların siyahısı</p>
-            <div class="danger__div">
-                <p>Daşınması qadağan olan məhsullar</p>
-                <ul>
-                    <li>Dezodorantlar</li>
-                    <li>Mobil telefonlar</li>
-                    <li>Müxtəlif növ batareyalar, powerbank-lar.</li>
-                    <li>Hər cür silah növləri, döyüş sursatı, hərbi təyinatlı hər cür əşyalar, partlayıcı maddələr, hərbi texnika.
+        <div class="qeydiyyat">
 
-                    </li>
-                    <li>Partlayıcı, tezalışan və ya digər təhlükəli maddələr, eləcə də radioaktiv maddələr və onların hazırlanması texnologiyasına aid materiallar.
+            <div class="qeydiyyat__left">
 
-                    </li>
-                    <li>Canlı heyvanlar.
+                <div class="qeydiyyat__left__basliq">
 
-                    </li>
-                    <li>Bitki və toxumlar.
+                    <h2  class="qeydiyyat__left__basliq__h2">Qeydiyyatdan keç</h2>
+                    <p class="qeydiyyat__left__basliq__p">Əgər hesabınız yoxdursa aşağıdakı məlumatları dolduraraq yeni hesab yaradın</p>
 
-                    </li>
-                    <li>Gizli kameralar, xüsusi məxfi rabitə vasitələri, onların şifrələri və istismarı haqqında ədəbiyyat.
+                </div>
 
-                    </li>
-                    <li>Dövlət əhəmiyyətli sənədlər, ixtiralar, layihələr.
+                <div class="qeydiyyat__left__button">
 
-                    </li>
-                    <li>Zinyət əşyaları, qiymətli metallar və qiymətli daşlar.
+                    <div style="color:#C9FFC7 ;" class="qeydiyyat__left__button-1">Fiziki şəxs</div>
+                    <div class="qeydiyyat__left__button-2">Hüquqi şəxs</div>
 
-                    </li>
-                    <li>Batareyalar</li>
-                    <li>Mühərriklər</li>
-                    <li>Hover Board skuterlər.
 
-                    </li>
-                    <li>Maşın yağları və maşın yağının olduğu bütün mallar.
+                </div>
 
-                    </li>
-                    <li>Hava nəqliyyatı vasitəsi ilə daşınması qadağan olunan əşyalar.
+                <div class="qeydiyyat__left__input">
 
-                    </li>
-                    <li>Azərbaycan Respublikasının ərazisinə idxalı qadağan olunan əşyalar.
+                    <div class="qeydiyyat__left__input-left">
 
-                    </li>
-                    <li>Türkiyədən sənət əsərləri, müxtəlif  sənədlər.
+                           
+                                <div class="input-data">
+                                    <input type="text" required multiple>
+                                    <label for="name">Ad</label>
+                                </div>
+                    </div>
+                    <div class="qeydiyyat__left__input-rigth">
+                        <div class="input-data">
+                            <input type="text" required multiple>
+                            <label for="name">Soyad</label>
+                        </div>
 
-                    </li>
-                    <li>Türkiyədən litium batareyalar və batareyalara sahib texnikalar.
+                    </div>
 
-                    </li>
-                </ul>
+
+                </div>
+
+                <div style="margin-top: 25px;" class="qeydiyyat__left__input">
+
+                    <div class="qeydiyyat__left__input-left">
+
+                           
+                                <div class="input-data">
+                                    <input type="text" required multiple>
+                                    <label for="name">Email</label>
+                                </div>
+                    </div>
+                    <div class="qeydiyyat__left__input-rigth">
+                        <div class="input-data">
+                            <input type="text" required multiple>
+                            <label for="tel">Mobil nomre</label>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div style="margin-top: 25px;" class="qeydiyyat__left__input">
+
+                    <div class="qeydiyyat__left__input-left">
+
+                           
+                                <div class="input-data">
+                                    <input type="password" required multiple>
+                                    <label for="name">Sifre</label>
+                                </div>
+                    </div>
+                    <div class="qeydiyyat__left__input-rigth">
+                        <div class="input-data">
+                            <input type="password" required multiple>
+                            <label for="tel">Tekrar Sifre</label>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div style="margin-top: -5px;" class="qeydiyyat__left__input">
+
+                    <div style="border: none;" class="qeydiyyat__left__input-left">
+
+                        <div style="margin-left: 0; margin-top: 35px;" class="form-check signup-form-check">
+                            <input type="hidden" name="SignupForm[agreement]" value="0"><input type="checkbox" id="terms" class="form-check-input" name="SignupForm[agreement]" value="1" aria-invalid="true">
+                            <label style="margin-top: 13px;" for="terms" class="form-check-label">
+                                <a style="text-decoration: none;color:#C9FFC7" href="/az/menu/user-agreement-107.html" target="_blank">İstifadəçi şərtləri</a> ilə razıyam
+                            </label>
+                        </div>
+                    </div>
+                
+
+
+                </div>
+
+                <div style="margin-top: 60px;" class="_button">Qeydiyyat</div>
+
+
+
+
+                
+
+
+
+            </div>
+            <div class="qeydiyyat__rigth">
+
+                <h2 class="qeydiyyat__rigth__h2">
+                    Artıq hesabınız var?
+                </h2>
+                <a class="qeydiyyat__rigth__a" href="">Daxil ol</a>
+
+
 
             </div>
 
 
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+    
+ 
+
+
+
 
 
     <!-- footer -->
