@@ -636,7 +636,7 @@ body {
 
 .Tariffs {
   width: 100%;
-  height: 840px;
+  height: 940px;
   background-color: #3B4046;
   margin-top: 60px; }
   .Tariffs__h2 {
@@ -656,6 +656,11 @@ body {
     margin-top: 20px;
     margin-left: 40px;
     display: flex; }
+    .Tariffs__info:hover {
+      border: 1px solid #C9FFC7; }
+      .Tariffs__info:hover i {
+        color: #C9FFC7;
+        transition: .5s; }
     .Tariffs__info-1 {
       width: 400px;
       height: 100%;
