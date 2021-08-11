@@ -1,25 +1,32 @@
 .suallar{
     width: 100%;
-    height: 500px;
-    background-color: tan;
+    height: 1000px;
 }
 
+
+
 .accordion{
-    width:70%;
+    width:85%;
     margin:0 auto;
+
 }
 
 /* accordion heading */
 .accordion h1{
-    font-size:26px;
-    font-weight: normal;
-    text-align: center;
-    margin-bottom:0px;
-    margin-top:0px;
-    background-color:gainsboro;
-    padding-top:7px;padding-bottom:7px;
-    border:1px solid darkgrey;
-    border-radius:3px;
+
+    background-color:#3B4046;
+    font-family: $text-font;
+    color: $color-white;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 16px;
+    border-radius:8px;
+    font-weight: 500;
+    height: 70px;
+    i{
+        float: right;
+        margin-right: 20px;
+    }
 }
 .accordion h1:hover{
     cursor:pointer;
@@ -28,9 +35,39 @@
 /* accordion section content */
 .accordion div{
     display:none;
-    padding:10px;
-    height:200px;
-    line-height:20px;
+    height:390px;
     border:1px solid gray;
-    border-radius:3px;
+    border-radius:10px;
+    margin-top: 20px;
+    border-color: $color-hover;
+    background-color:#3B4046 ;
+
+    .accor1{
+        &__h6{
+            color: $color-hover;
+            padding-top: 20px;
+            font-size: 18px;
+            padding-left: 25px;
+
+            i{
+                float:right;
+                margin-right: 20px;
+            }
+           
+
+        }
+        &__p{
+              color: silver;  
+              padding-left: 25px;
+              padding-top: 50px;
+              font-weight: bold;
+              font-family: $text-font;
+        }
+        &__p1{
+            color: silver;  
+            padding-left: 25px;
+            margin-top: -14px;
+            font-family: $text-font;
+      }
+    }
 }
