@@ -77,6 +77,10 @@
             color: $color-hover;
             transition: .3s;
         }
+        p{
+            color: white;
+            transition: .5s;
+        }
     }
     
 }
@@ -91,6 +95,11 @@
    &:hover{
        border-color: $color-hover;
        transition: .3s;
+
+       p{
+           color: white;
+           transition: .5s;
+       }
 
        .fakingboy{
            color: $color-hover;
