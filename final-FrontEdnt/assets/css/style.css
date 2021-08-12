@@ -448,7 +448,8 @@ nav ul li a {
         border-radius: 8px;
         cursor: pointer;
         text-transform: none;
-        border-color: #626f73;
+        border: none;
+        border: 1px solid rgba(255, 255, 255, 0.2);
         text-align: center;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
         .Kalkulyator .calc-left-side .package-weight button:focus {
@@ -494,7 +495,7 @@ nav ul li a {
     margin-top: 40px;
     height: 350px; }
     .Kalkulyator .calc-right-side .baglama-nov {
-      border: 1px solid black;
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
       width: 462px;
       margin-left: 25px;
       background-color: #3B4046;
@@ -513,7 +514,7 @@ nav ul li a {
           .Kalkulyator .calc-right-side .baglama-nov .btn100:focus .span5 {
             color: #C9FFC7; }
     .Kalkulyator .calc-right-side .hhh6 {
-      margin-left: -450px;
+      margin-left: -370px;
       color: rgba(255, 255, 255, 0.7); }
 
 .service-list .form {
@@ -530,7 +531,7 @@ nav ul li a {
   background-color: #3B4046; }
 
 .service-list #service-13 {
-  margin-left: 5px;
+  margin-left: 15px;
   background-color: #3B4046; }
 
 .service-list .form-check {
@@ -555,6 +556,12 @@ nav ul li a {
   margin-top: 40px;
   width: 270px;
   padding: 8px; }
+
+.divijenyaa {
+  width: 80%;
+  height: 50px;
+  background-color: red;
+  margin: auto; }
 
 .works {
   width: 100%;
