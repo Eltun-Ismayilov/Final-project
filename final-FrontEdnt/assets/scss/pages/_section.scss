@@ -1,143 +1,352 @@
-.Kalkulyator{
-    width: 100%;
-    height:3060px;
-    background-color: #3B4046 ;
-    margin-top: 100px;
+// .Kalkulyator{
+//     width: 100%;
+//     height:760px;
+//     background-color: #3B4046 ;
+//     margin-top: 100px;
 
-    &__h2{
-        color: $color-hover;
-        font-weight: 700;
-        padding-top: 70px;
-        text-align: center;
-        font-family: $color-text;
+//     &__h2{
+//         color: $color-hover;
+//         font-weight: 700;
+//         padding-top: 70px;
+//         text-align: center;
+//         font-family: $color-text;
 
 
-    }
-    &__p{
-    font-size: 16px;
-    line-height: 28px;
-    width: 800px;
-    margin-left: 14%;
-    color: $color-text;
-    margin-top: 17px;
-    text-align: center;
+//     }
+//     &__p{
+//     font-size: 16px;
+//     line-height: 28px;
+//     width: 800px;
+//     margin-left: 14%;
+//     color: $color-text;
+//     margin-top: 17px;
+//     text-align: center;
 
-    }
+//     }
 
-    &__div{
-      width: 76%;
-      height: 100px;
-      margin: 20px auto;
-      display: flex;
-      justify-content: space-between;
-      margin-top: 45px;
+//     &__div{
+//       width: 76%;
+//       height: 100px;
+//       margin: 20px auto;
+//       display: flex;
+//       justify-content: space-between;
+//       margin-top: 45px;
 
-      &-1{
-        width: 492px;
-        height: 102px;
-        h6{
-          font-family: $color-text;
-          color: silver;
-        }
-        &_1{
-          width: 126px;
-          height: 56px;
-          display:inline-block;
-          // margin-top: 5px;
-          border-radius: 7px;
-          background-color: $color-body;
-          background-image: url(https://velocity.az/frontend/web/uploads//images/country/Turkey.svg);
-          background-repeat: no-repeat;
-          background-position: 14px 12px;
-          color: $color-hover;
-          font-weight: 500;
-          padding-left: 50px;
-          padding-top: 14px;
-          cursor: pointer;
+//       &-1{
+//         width: 492px;
+//         height: 102px;
+//         h6{
+//           font-family: $color-text;
+//           color: silver;
+//         }
+//         &_1{
+//           width: 126px;
+//           height: 56px;
+//           display:inline-block;
+//           // margin-top: 5px;
+//           border-radius: 7px;
+//           background-color: $color-body;
+//           background-image: url(https://velocity.az/frontend/web/uploads//images/country/Turkey.svg);
+//           background-repeat: no-repeat;
+//           background-position: 14px 12px;
+//           color: $color-hover;
+//           font-weight: 500;
+//           padding-left: 50px;
+//           padding-top: 14px;
+//           cursor: pointer;
 
        
 
-        }
-        &_2{
+//         }
+//         &_2{
 
-          width: 104px;
-          height: 56px;
-          display:inline-block;
-          padding-left: 55px;
-          padding-top: 14px;
-          border-radius: 7px;
-          border: 1px solid rgba(255,255,255,0.2);
-          // padding-top: 20px;
-          background-image: url(https://velocity.az/frontend/web/uploads//images/country/US.svg);
-          background-repeat: no-repeat;
-          background-position: 14px 12px;
-          color: white;
-          font-weight: 500;
-          cursor: pointer;
-
-
+//           width: 104px;
+//           height: 56px;
+//           display:inline-block;
+//           padding-left: 55px;
+//           padding-top: 14px;
+//           border-radius: 7px;
+//           border: 1px solid rgba(255,255,255,0.2);
+//           // padding-top: 20px;
+//           background-image: url(https://velocity.az/frontend/web/uploads//images/country/US.svg);
+//           background-repeat: no-repeat;
+//           background-position: 14px 12px;
+//           color: white;
+//           font-weight: 500;
+//           cursor: pointer;
 
 
-        }
 
-      }
-      &-2{
-        width: 492px;
-        height: 102px;
+
+//         }
+
+//       }
+//       &-2{
+//         width: 492px;
+//         height: 102px;
+
+//         h6{
+//           font-family: $color-text;
+//           color: silver;
+//         }
         
-        // border: 2px solid greenyellow;
+//         &_div{
+//           width: 100%;
+//           height: 56px;
+//           border: 1px solid rgba(255,255,255,0.2) !important;
+//           border-radius: 7px;
+//           display: flex;
 
-        h6{
-          font-family: $color-text;
-          color: silver;
-        }
-        
-        &_div{
-          width: 100%;
-          height: 56px;
-          // background-color: red;
-          border: 1px solid rgba(255,255,255,0.2) !important;
-          border-radius: 7px;
-          display: flex;
-
-          &-left{
-            width: 50%;
-            height: 100%;
-            background-color: $color-body;
-            border-radius: 7px;
-            color: $color-hover;
-            font-weight: 500;
-            font-family: $color-text;
-            text-align: center;
-            padding-top: 13px;
-            cursor: pointer;
+//           &-left{
+//             width: 50%;
+//             height: 100%;
+//             background-color: $color-body;
+//             border-radius: 7px;
+//             color: $color-hover;
+//             font-weight: 500;
+//             font-family: $color-text;
+//             text-align: center;
+//             padding-top: 13px;
+//             cursor: pointer;
 
 
 
-          }
-          &-rigth{
-            width: 50%;
-            height: 100%;
-            // background-color: greenyellow;
-            border-radius: 7px;
-            color: $color-white;
-            font-weight: 500;
-            font-family: $color-text;
-            text-align: center;
-            padding-top: 13px;
-            cursor: pointer;
+//           }
+//           &-rigth{
+//             width: 50%;
+//             height: 100%;
+//             border-radius: 7px;
+//             color: $color-white;
+//             font-weight: 500;
+//             font-family: $color-text;
+//             text-align: center;
+//             padding-top: 13px;
+//             cursor: pointer;
 
 
-          }
-        }
+//           }
+//         }
 
 
 
-      }
-    }
+//       }
+//     }
   
   
     
-}
+// }
 
+
+.Kalkulyator{
+  width: 100%;
+  height: 940px;
+  background-color: #3B4046 ;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 10px;
+
+  &__h2{
+      color: $color-hover;
+      font-weight: 700;
+      padding-top: 70px;
+
+  }
+  &__p{
+  font-size: 16px;
+  line-height: 28px;
+  width: 800px;
+  margin-left: 14%;
+  color: $color-text;
+  margin-top: 17px;
+  }
+  &__h6{
+      margin-left: -126px;
+      color: red;
+  }
+  
+  .calc-left-side{
+      height: 350px;
+      background-color: #3B4046;
+      margin-top: 40px;
+      .package-weight{
+          width: 50%;
+          h5{
+              color: rgb(157,160,163)
+          }
+         
+          button{
+              padding: 10px;
+              background-color: #3B4046;
+              color: white;
+              border-radius: 8px;
+              
+              cursor: pointer;
+              text-transform: none;
+              // margin-left: 15px;
+              
+              border-color:rgb(98,111,115);
+              
+              text-align: center;
+              transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+              &:focus{
+                  background-color: rgb(34,37,44);
+                  color: rgb(201,255,199);
+              }
+          }
+          
+
+      }
+      
+      &__calc-part{
+          width: 400px;
+          background-color: darkgray;
+          margin: 0 auto;
+          height: 70px;
+          background-color: rgb(34,37,44);
+          
+          .range-article{
+              width: 80%;
+              // background-color: ;
+              display: inline-block;
+              // padding: 20px;
+              .pepe{
+                  display: inline-block;
+                   margin-left: -200px;
+              margin-top: 5px;
+
+
+              }
+              .inpuut{
+                  width: 70px;
+                  float: right;
+                   margin-top: 10px; 
+                  border: none; 
+                  outline: none;
+                  text-align: right;
+                  background-color: rgb(34,37,44);
+                  color: white;
+              margin-top: 7px;
+
+                  
+              }
+          }
+          .form{
+              width: 50px;
+              display: inline-block;
+              height: 40px;
+              margin-top: 7px;
+              background-color: rgb(34,37,44);
+              border: none;
+              color: white;
+              margin-top: 5px;
+          }
+          .inpout{
+              width: 100%;
+              margin: 0 auto;
+              
+              
+          }
+
+      }
+      
+  }
+  
+  .calc-right-side{
+      background-color: #3B4046;
+      margin-top: 40px;
+      height: 350px;
+      
+      .baglama-nov{
+          border:1px solid black;
+          width: 462px;
+          // margin:0 auto;
+          margin-left: 25px;
+          background-color: #3B4046;
+          border-radius: 8px;
+          .span5{
+              display: inline-block;
+              padding:  15px 60px 15px 60px;
+              color: white;
+              
+              
+          }
+          .btn100{
+              border-radius: 8px;
+              background-color: rgb(59,64,70);
+              border:none;
+              &:focus{
+                  transition: 0.5s ease;
+                  .span5{
+                      color: $color-hover;
+                  }
+                  background-color: rgb(34,37,44);
+              }
+          }
+      }
+      
+       .hhh6{
+          margin-left: -450px;
+           color: $color-text;
+      }
+      
+  }
+}
+.service-list{
+  .form{
+      float:left;
+      margin-left: 10px;
+      color: $color-text;
+      
+  }
+  
+  h6{
+      float: left;
+      
+  }
+  #service-13,#service-14,#service-15{
+      height: 24px;
+      width: 24px;
+      background-color: #3B4046;
+     
+
+
+      
+  }
+  #service-13{
+
+      margin-left: 5px;
+      background-color: #3B4046;
+      // margin-left: -65px;
+      
+  }
+  #service-15{
+      
+  }
+  .form-check{
+      margin-left: -10px;
+  }
+  
+
+}
+.hesabat{
+  .money{
+      text-align: center;
+      color: white;
+      .hh3{
+          font-size: 38px;
+          margin-top: 30px;
+
+      }
+  }
+  .btn2{
+      @include button
+      
+      
+  }
+  .btn2{
+      margin-top: 40px;
+      width: 270px;
+      padding: 8px;
+  }
+}
 
