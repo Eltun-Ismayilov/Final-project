@@ -208,6 +208,10 @@
       margin-top: 40px;
       width: 270px;
       padding: 8px;
+      &:hover{
+          background-color: $color-button-hover;
+          transition: .5s
+      }
   }
 }
 

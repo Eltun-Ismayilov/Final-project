@@ -12,7 +12,7 @@
         background-size: cover;
         background-position: -114px -12px;
         background-repeat: no-repeat;
-        background-color: #3B4046 !important;
+        background-color: $color-primary!important;
         position: absolute;
         @include respons(phone){
             // margin-left: -70px;

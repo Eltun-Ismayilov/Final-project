@@ -1,15 +1,15 @@
 
 .heading__title {
     color: rgb(175, 231, 175);
-    font-weight: 600;
+    font-weight: $font-weight-600;
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: $font-40px;
     line-height: 56px;
     
    
 }
 .footer {
-    background-color: #181C1F;
+    background-color:$color-button-color;
     padding-top: 56px;
     padding-bottom: 64px;
  
@@ -28,7 +28,7 @@
       text-decoration: none;
       font-weight: 500;
       line-height: 24px;
-       color: white;
+      color: $color-white;
      
     
        
@@ -67,7 +67,7 @@ color:rgb(175, 231, 175);
     }
    
     line-height: 56px;
-    font-weight: 500;
+    font-weight: $font-weight-600;
 }
 .footer-bottom {
     display: flex;

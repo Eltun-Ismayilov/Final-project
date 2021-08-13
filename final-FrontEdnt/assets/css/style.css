@@ -319,9 +319,7 @@ nav ul li a {
   cursor: pointer; }
 
 .flickity-page-dots .dot.is-selected {
-  background-color: #C9FFC7;
-  width: 40px;
-  height: 40px; }
+  background-color: #C9FFC7; }
 
 .image-1 {
   background-image: url(https://velocity.az/frontend/web/uploads//images/slider/saytamerika.png);
@@ -352,6 +350,9 @@ nav ul li a {
     width: 180px;
     margin-left: 58px;
     height: 50px; }
+    .image-1 button:hover {
+      background-color: rgba(201, 255, 199, 0.8);
+      transition: .5s; }
 
 .image-2 {
   background-image: url(https://velocity.az/frontend/web/uploads//images/slider/cargovelo.png);
@@ -382,6 +383,9 @@ nav ul li a {
     width: 180px;
     margin-left: 58px;
     height: 50px; }
+    .image-2 button:hover {
+      background-color: rgba(201, 255, 199, 0.8);
+      transition: .5s; }
 
 .image-3 {
   background-image: url(https://velocity.az/frontend/web/uploads//images/slider/saytturki.png);
@@ -412,6 +416,9 @@ nav ul li a {
     width: 180px;
     margin-left: 58px;
     height: 50px; }
+    .image-3 button:hover {
+      background-color: rgba(201, 255, 199, 0.8);
+      transition: .5s; }
 
 .image-4 {
   background-image: url(https://velocity.az/frontend/web/uploads//images/slider/bv.png);
@@ -442,6 +449,9 @@ nav ul li a {
     width: 180px;
     margin-left: 58px;
     height: 50px; }
+    .image-4 button:hover {
+      background-color: rgba(201, 255, 199, 0.8);
+      transition: .5s; }
 
 .Kalkulyator {
   width: 100%;
@@ -587,6 +597,9 @@ nav ul li a {
   margin-top: 40px;
   width: 270px;
   padding: 8px; }
+  .hesabat .btn2:hover {
+    background-color: rgba(201, 255, 199, 0.8);
+    transition: .5s; }
 
 .divijenyaa {
   width: 80%;
@@ -756,7 +769,7 @@ nav ul li a {
         margin-top: -15px;
         margin-left: 213px;
         text-decoration: line-through;
-        color: silver; }
+        color: rgba(255, 255, 255, 0.5); }
     .Tariffs__info-3 {
       width: 300px;
       height: 100%;
@@ -792,7 +805,7 @@ nav ul li a {
         margin-top: -15px;
         margin-left: 156px;
         text-decoration: line-through;
-        color: silver; }
+        color: rgba(255, 255, 255, 0.5); }
     .Tariffs__info .fa-car {
       width: 72px;
       height: 67px;
@@ -1013,7 +1026,7 @@ nav ul li a {
 .footer__nav li {
   list-style: none;
   line-height: 56px;
-  font-weight: 500; }
+  font-weight: 600; }
   .footer__nav li a {
     text-decoration: none;
     color: white; }
@@ -1580,7 +1593,7 @@ nav ul li a {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-evenly; }
     .contact__div-1 {
       width: 540px;
       height: 833px;
@@ -1732,7 +1745,7 @@ nav ul li a {
 
 .suallar {
   width: 100%;
-  height: 1000px; }
+  height: 1100px; }
 
 .accordion {
   width: 85%;
@@ -1942,6 +1955,28 @@ input:valid ~ label {
   ._button:hover {
     background-color: rgba(201, 255, 199, 0.8);
     transition: .5s; }
+
+.tarifler {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px; }
+  .tarifler__h2 {
+    color: #C9FFC7;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center; }
+  .tarifler__p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-family: "Yolk"; }
+  .tarifler__p::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #C9FFC7;
+    margin: 10px auto; }
 
 @font-face {
   font-family: 'Yolk';
