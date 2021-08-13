@@ -1,54 +1,52 @@
 .hesabim{
     width: 100%;
     height: 650px;
-    background-color: #3B4046;
+    background-color: $color-primary;
     display: flex;
-    border-radius: 10px;
+    border-radius: $border-radius-10px;
 
     &__left{
         width: 497px;
         height: 92%;
         background-image: url(https://velocity.az/front/img/vector/Vector-lighten.svg);
-        background-color:#C9FFC7 !important ;
+        background-color:$color-hover !important ;
         margin-left: 25px;
         margin-top: 25px;
-        border-radius: 10px;
+        border-radius: $border-radius-10px;
         &__h2{
-            color: #181C1F;
-            font-size: 40px;
-            font-weight: 700;
+            color: $color-button-color;
+            font-size: $font-40px;
+            font-weight:$font-weight-700;
             margin-top: 170px;
             margin-left: 70px;
         }
         &__button{
             @include button-big;
-            border:2px solid #181C1F;
-            color: black;
+            border:2px solid $color-button-color;
+            color: $color-button-color;
             width: 320px;
             margin-left: 70px;
             margin-top: 50px;
-            font-weight: 500;
+            font-weight: $font-weight-500;
         }
     }
     &__rigth{
         width: 540px;
         height: 92%;
-        // border: 2px solid white;
         margin-left: 25px;
         margin-top: 25px;
-        border-radius: 10px;
+        border-radius: $border-radius-10px;
         &__h2{
             color: $color-hover;
-            font-size: 40px;
+            font-size: $font-40px;
             font-weight: 700;
             text-align: center;
             margin-top: 30px;
         }
         &__p{
-            font-size: 16px;
+            font-size: $font-16px;
             line-height: 28px;
-            font-size: 16px;
-            color: $color-text;
+            color: $color-text-1;
             text-align: center;
         }
         &__input{
@@ -65,13 +63,13 @@
             background-color: $color-hover;
             margin-left: 76px;
             margin-top: 40px;
-            border-radius: 10px;
+            border-radius: $border-radius-10px;
             text-align: center;
             padding-top: 12px;
-            font-size: 17px;
+            font-size: $font-17px;
             cursor: pointer;
             &:hover{
-                background-color: rgba(201,255,199,0.8);
+                background-color: $color-button-hover;
                 transition: .7s;
             }
         }
@@ -98,10 +96,8 @@
 
 .wrapper{
     width: 510px;
-    // background: #fff;
     padding: 50px;
-    // box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: $border-radius-10px;
     margin-left: 20px;
 }
 
@@ -110,7 +106,7 @@
     height: 60px;
     position: relative;
     background-color: $color-body;
-    border-radius: 10px;
+    border-radius: $border-radius-10px;
 
 
 
@@ -120,8 +116,8 @@
     width: 100%;
     height: 100%;
     border: none;
-    font-size: 17px;
-    border-radius: 10px;
+    font-size: $font-17px;
+    border-radius: $border-radius-10px;
     outline: none;
     background-color: $color-body;
     padding-left: 10px;
@@ -134,16 +130,16 @@
 .input-data input:focus ~ label,
 .input-data input:valid ~ label{
     transform:translateY(-20px);
-    font-size: 16px;
+    font-size: $font-15px;
 }
 .wrapper .input-data label{
     position: absolute;
     left: 0;
     bottom: 17px;
-    color: grey;
+    color: $color-text-1;
     pointer-events: none;
     transition: all 0.3s ease;
-    font-size: 20px;
+    font-size: $font-20px;
     padding-left: 10px;
 }
 
@@ -169,14 +165,14 @@
    
      .form-check .form-check-input:checked[type=checkbox] {
         background-color: black !important;
-        color: #181C1F;
-        // outline: none;
+        color: $color-button-color;
+        
 
     }
     .form-check-label{
         color: $color-white;
         margin-left: 10px;
-        font-size: 20px;
+        font-size: $font-20px;
     }
 
    
@@ -185,6 +181,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #C9FFC7;
-        font-size: 18px;
+        color: $color-hover;
+        font-size: $font-18px;
     }

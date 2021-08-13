@@ -14,14 +14,14 @@
 /* accordion heading */
 .accordion h1{
 
-    background-color:#3B4046;
+    background-color:$color-primary;
     font-family: $text-font;
     color: $color-white;
     padding-left: 25px;
     padding-top: 25px;
-    font-size: 16px;
+    font-size: $font-16px;
     border-radius:8px;
-    font-weight: 500;
+    font-weight: $font-weight-500;
     height: 70px;
     i{
         float: right;
@@ -40,13 +40,13 @@
     border-radius:10px;
     margin-top: 20px;
     border-color: $color-hover;
-    background-color:#3B4046 ;
+    background-color:$color-primary ;
 
     .accor1{
         &__h6{
             color: $color-hover;
             padding-top: 20px;
-            font-size: 18px;
+            font-size: $font-18px;
             padding-left: 25px;
 
             i{
@@ -57,14 +57,14 @@
 
         }
         &__p{
-              color: silver;  
+              color: $color-text-1;  
               padding-left: 25px;
               padding-top: 50px;
-              font-weight: bold;
+              font-weight: $font-weight-600;
               font-family: $text-font;
         }
         &__p1{
-            color: silver;  
+            color: $color-text-1;  
             padding-left: 25px;
             margin-top: -14px;
             font-family: $text-font;

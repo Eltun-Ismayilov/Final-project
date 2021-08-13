@@ -4,19 +4,19 @@
     margin-top: 60px;
 
     &__h2{
-        font-weight: 700;
+        font-weight: $font-weight-700;
         color: $color-hover;
         margin-bottom: 8px;
-        font-size: 40px;
+        font-size: $font-40px;
         line-height: 56px;
         text-align: center;
         font-family: $text-font;
 
     }
     &__p{
-        color: $color-text;
+        color: $color-text-1;
         text-align: center;
-        font-size: 18px;
+        font-size: $font-18px;
         font-family: $text-font
         
         
@@ -33,17 +33,17 @@
             width: 540px;
             height: 833px;
             background-color: $color-primary;
-            border-radius: 10px;
+            border-radius: $border-radius-10px;
             margin-top: 30px;
            
             h4{
                 color: white;
-                font-size: 20px;
+                font-size: $font-20px;
                 line-height: 32px;
                 font-family: $text-font;
                 padding-top: 40px;
                 margin-left: 40px;
-                font-weight: 600
+                font-weight: $font-weight-600;
     
             }
             &_icons{
@@ -64,8 +64,8 @@
             }
 
             &__h2{
-                font-weight: 600;
-                font-size: 20px;
+                font-weight: $font-weight-600;
+                font-size: $font-20px;
                 line-height: 32px;
                 color: $color-white;
                 margin-top: 35px;
@@ -83,22 +83,22 @@
             margin-top: 30px;
 
             &__h4{
-                color: white;
+                color: $color-white;
                 font-size: 20px;
                 line-height: 32px;
                 font-family: $text-font;
                 padding-top: 70px;
                 margin-left: 40px;
-                font-weight: 600;
+                font-weight: $font-weight-600;
             }
             &__p{
                 color:silver;
-                font-size: 18px;
+                font-size: $font-18px;
                 line-height: 32px;
                 font-family: $text-font;
                 // padding-top: 70px;
                 margin-left: 40px;
-                font-weight: 300;
+                font-weight: $font-weight-300;
             }
 
             
@@ -124,7 +124,7 @@
         width: 80px;
         height: 100%;
         border: 1px solid rgba(255,255,255,0.2);
-        border-radius: 10px;
+        border-radius: $border-radius-10px;
         padding-top: 18px;
         padding-left: 20px;
         i{
@@ -137,15 +137,15 @@
         height: 100%;
         margin-left: 30px;
         h5{
-            font-weight: 700;
+            font-weight: $font-weight-700;
             line-height: 28px;
-            color: #fff;
+            color: $color-white;
             font-display: $text-font
         }
         p{
-            font-size: 14px !important;
+            font-size: $font-14px !important;
             line-height: 24px !important;
-            color: silver;
+            color: $color-text-1;
             margin-top: -6px;
             width: 85%;
         }
@@ -157,7 +157,7 @@
     margin-left: 309px;
     margin-top: 49px;
     &:hover{
-        background-color: rgba(201,255,199,0.8);
+        background-color: $color-button-hover;
         transition: .5s;
     }
 }

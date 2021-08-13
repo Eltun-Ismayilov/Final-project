@@ -25,7 +25,7 @@
             &__span{
                 color: rgba(255,255,255,0.7);
                 display: inline-block;
-                font-family: "Yolk";
+                font-family: $text-font;
                 font-size:14px;
                 margin-top: 15px;
                 cursor: pointer;
@@ -45,7 +45,7 @@
                 display: inline-block;
                 font-size:14px;
                 margin-top: 15px;
-                font-family: "Yolk";
+                font-family: $text-font;
                 margin-left: 26px;
                 cursor: pointer;
                 a{
@@ -89,7 +89,7 @@
                     transition: none !important;
                     animation-iteration-count: infinite !important;
                     color: rgba(255,255,255,0.7);;
-                    font-family: "Yolk";
+                    font-family: $text-font;
 
                 }
                 &__citem-1{
@@ -108,7 +108,7 @@
                 display: inline-block;
                 padding-top: 13px;
                 display: flex;
-                font-family: "Yolk";
+                font-family: $text-font;
                 cursor: pointer;
                 &:hover{
                     span{
@@ -164,7 +164,7 @@
                 background-color: red;
                 border-radius: 8px;
                 margin-top: 4px;
-                font-family: "Yolk";
+                font-family: $text-font;
                 color: #181C1F;
                 background-color: #C9FFC7;
                 font-weight: 500;
@@ -218,66 +218,87 @@
         height: 100%;
      
     }
+
     &__rigth{
         width: 23%;
         height: 100%;
         display: flex;
-        font-family: "Yolk";
-        .hesabim-a{
-            margin-left: 8px;
-            color: $color-white;
-            font-family: "Yolk";
-            @include respons(phone){
-                display: none;
+        font-family: $text-font;
+        justify-content: space-between;
+        // border: 1px solid yellow;
+
+        &_div1{
+            width: 40%;
+            height: 50%;
+            display: flex;
+            margin-left: 95px;
+            margin-top: 12px;
+            cursor: pointer;
+
+
+            .fa-user{
+                color: $color-white;
+                padding-top: 5px;
+                font-size: 23px;
             }
-        }
-      
-       
-        a{
-            text-decoration: none;
-            margin-left: 84px;
-            font-size: 20px;
-            margin-top: 14px;
+            .hesabim450{
+                margin-top: 5px;
+                margin-left: 8px;
+                a{
+                    text-decoration: none;
+                    color: $color-white;
+                    font-family: $text-font;
+
+
+                }
+            }
             &:hover{
                 .fa-user{
-                    color:$color-hover;
-                    transition: .6s;
-                  
-
-                }
-                .hesabim-a{
                     color: $color-hover;
-                    transition: .6s;
-
-
                 }
-               
+                .hesabim450{
+                    a{
+                        color: $color-hover;
+                    }
+                }
             }
-        }
-        span{
-
-            color: $color-white;
-            font-family: "Yolk";
-            font-size: 17px;
-            margin-left: 10px;
-            @include respons(phone){
-              display: none;           
- }
-            
-        }
-        p{
-            color: $color-white;
-            
 
         }
-         .fa-user{
-            @include respons(phone){
-                font-size: 40px;
-                margin-top: 7px;
-                margin-left: 50px;
+        &_div2{
+            width: 15%;
+            height: 100%;
+            cursor: pointer;
+
+            i{
+                display: inline-block;
+                margin-top: 8px;
+                margin-left: 4px;
             }
+            p{
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                background-color: red;
+                margin-top: -47px;
+                margin-left: 24px;
+                color: $color-white;
+                padding-left: 7px;
+            }
+
+            &:hover{
+                i{
+                    color: $color-hover;
+                }
+                p{
+                    color: $color-hover;
+                }
+            }
+         
         }
         
+
+               
+
     }
 }
 
@@ -288,6 +309,7 @@ nav{
     height: 100%;
     width: 100%;
  
+    display: flex;
     @include respons(phone){
         width: 132%;
         height: auto;
@@ -295,11 +317,12 @@ nav{
 }
 .logo a{
     color: white;
+
     @include respons(phone){
         color: greenyellow;
     }
     img{
-        margin-top: -27px;
+        // margin-top: -27px;
     }
 }
 
@@ -308,6 +331,7 @@ nav{
     line-height: 80px;
     // padding: 0px 100px;
     font-weight: bold;
+    display: inline-block;
 
     @include respons(phone){
         margin-left: 34%;
@@ -318,7 +342,8 @@ nav{
 }   
 
 nav ul{
-    float: right;
+    // float: right;
+    display: inline-block;
 
     @include respons(phone){
         position: fixed;
@@ -418,4 +443,13 @@ nav ul li a{
 }
 
 
- 
+ .icon-facebook:hover{
+     color: $color-hover;
+ }
+ .icon-instagram:hover{
+     color: $color-hover;
+ }
+
+ .icon-youtube:hover{
+     color: $color-hover;
+ }

@@ -161,46 +161,68 @@ body {
     width: 23%;
     height: 100%;
     display: flex;
-    font-family: "Yolk"; }
-    .navbar-bottom__rigth .hesabim-a {
-      margin-left: 8px;
-      color: white;
-      font-family: "Yolk"; }
-    .navbar-bottom__rigth a {
-      text-decoration: none;
-      margin-left: 84px;
-      font-size: 20px;
-      margin-top: 14px; }
-      .navbar-bottom__rigth a:hover .fa-user {
-        color: #C9FFC7;
-        transition: .6s; }
-      .navbar-bottom__rigth a:hover .hesabim-a {
-        color: #C9FFC7;
-        transition: .6s; }
-    .navbar-bottom__rigth span {
-      color: white;
-      font-family: "Yolk";
-      font-size: 17px;
-      margin-left: 10px; }
-    .navbar-bottom__rigth p {
-      color: white; }
+    font-family: "Yolk";
+    justify-content: space-between; }
+    .navbar-bottom__rigth_div1 {
+      width: 40%;
+      height: 50%;
+      display: flex;
+      margin-left: 95px;
+      margin-top: 12px;
+      cursor: pointer; }
+      .navbar-bottom__rigth_div1 .fa-user {
+        color: white;
+        padding-top: 5px;
+        font-size: 23px; }
+      .navbar-bottom__rigth_div1 .hesabim450 {
+        margin-top: 5px;
+        margin-left: 8px; }
+        .navbar-bottom__rigth_div1 .hesabim450 a {
+          text-decoration: none;
+          color: white;
+          font-family: "Yolk"; }
+      .navbar-bottom__rigth_div1:hover .fa-user {
+        color: #C9FFC7; }
+      .navbar-bottom__rigth_div1:hover .hesabim450 a {
+        color: #C9FFC7; }
+    .navbar-bottom__rigth_div2 {
+      width: 15%;
+      height: 100%;
+      cursor: pointer; }
+      .navbar-bottom__rigth_div2 i {
+        display: inline-block;
+        margin-top: 8px;
+        margin-left: 4px; }
+      .navbar-bottom__rigth_div2 p {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: red;
+        margin-top: -47px;
+        margin-left: 24px;
+        color: white;
+        padding-left: 7px; }
+      .navbar-bottom__rigth_div2:hover i {
+        color: #C9FFC7; }
+      .navbar-bottom__rigth_div2:hover p {
+        color: #C9FFC7; }
 
 nav {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  display: flex; }
 
 .logo a {
   color: white; }
-  .logo a img {
-    margin-top: -27px; }
 
 .logo {
   font-size: 22px;
   line-height: 80px;
-  font-weight: bold; }
+  font-weight: bold;
+  display: inline-block; }
 
 nav ul {
-  float: right; }
+  display: inline-block; }
 
 nav ul li {
   display: inline-block;
@@ -246,6 +268,15 @@ nav ul li a {
   color: #C9FFC7; }
 
 .hesabim-a:hover {
+  color: #C9FFC7; }
+
+.icon-facebook:hover {
+  color: #C9FFC7; }
+
+.icon-instagram:hover {
+  color: #C9FFC7; }
+
+.icon-youtube:hover {
   color: #C9FFC7; }
 
 .carousel {
@@ -1245,7 +1276,7 @@ nav ul li a {
       font-weight: 500;
       outline: none;
       border: 2px solid #181C1F;
-      color: black;
+      color: #181C1F;
       width: 320px;
       margin-left: 70px;
       margin-top: 50px;
@@ -1265,8 +1296,7 @@ nav ul li a {
     .hesabim__rigth__p {
       font-size: 16px;
       line-height: 28px;
-      font-size: 16px;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(255, 255, 255, 0.5);
       text-align: center; }
     .hesabim__rigth__input {
       width: 24px;
@@ -1323,13 +1353,13 @@ nav ul li a {
 .input-data input:focus ~ label,
 .input-data input:valid ~ label {
   transform: translateY(-20px);
-  font-size: 16px; }
+  font-size: 15px; }
 
 .wrapper .input-data label {
   position: absolute;
   left: 0;
   bottom: 17px;
-  color: grey;
+  color: rgba(255, 255, 255, 0.5);
   pointer-events: none;
   transition: all 0.3s ease;
   font-size: 20px;
@@ -1542,7 +1572,7 @@ nav ul li a {
     text-align: center;
     font-family: "Yolk"; }
   .contact__p {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.5);
     text-align: center;
     font-size: 18px;
     font-family: "Yolk"; }
@@ -1629,12 +1659,12 @@ nav ul li a {
     .unvan-2 h5 {
       font-weight: 700;
       line-height: 28px;
-      color: #fff;
+      color: white;
       font-display: "Yolk"; }
     .unvan-2 p {
       font-size: 14px !important;
       line-height: 24px !important;
-      color: silver;
+      color: rgba(255, 255, 255, 0.5);
       margin-top: -6px;
       width: 85%; }
 
@@ -1667,7 +1697,7 @@ nav ul li a {
     line-height: 52px;
     font-family: "Yolk";
     text-align: center;
-    color: silver;
+    color: rgba(255, 255, 255, 0.5);
     font-weight: 500; }
   .danger__p::after {
     content: "";
@@ -1689,7 +1719,7 @@ nav ul li a {
     .danger__div p {
       font-size: 18px;
       font-family: "Yolk";
-      color: silver;
+      color: rgba(255, 255, 255, 0.5);
       margin-left: 50px;
       padding-top: 50px; }
     .danger__div ul {
@@ -1697,7 +1727,7 @@ nav ul li a {
     .danger__div li {
       font-size: 18px;
       font-family: "Yolk";
-      color: silver;
+      color: rgba(255, 255, 255, 0.5);
       margin-top: 7px; }
 
 .suallar {
@@ -1744,13 +1774,13 @@ nav ul li a {
       float: right;
       margin-right: 20px; }
   .accordion div .accor1__p {
-    color: silver;
+    color: rgba(255, 255, 255, 0.5);
     padding-left: 25px;
     padding-top: 50px;
-    font-weight: bold;
+    font-weight: 600;
     font-family: "Yolk"; }
   .accordion div .accor1__p1 {
-    color: silver;
+    color: rgba(255, 255, 255, 0.5);
     padding-left: 25px;
     margin-top: -14px;
     font-family: "Yolk"; }
@@ -1786,7 +1816,7 @@ nav ul li a {
         font-size: 16px;
         line-height: 28px;
         font-family: "Yolk";
-        color: silver; }
+        color: rgba(255, 255, 255, 0.5); }
     .qeydiyyat__left__button {
       width: 43%;
       height: 58px;
@@ -1857,11 +1887,13 @@ nav ul li a {
       border: 2px solid #181C1F;
       border-radius: 8px;
       width: 100% !important;
-      font-weight: 500;
+      font-weight: 700;
       font-family: "Yolk";
       text-decoration: none;
       color: #181C1F;
       text-align: center; }
+      .qeydiyyat__rigth__a:hover {
+        color: #181C1F; }
 
 .input-data {
   width: 100%;
@@ -1890,10 +1922,10 @@ input:valid ~ label {
   position: absolute;
   left: 0;
   bottom: 17px;
-  color: grey;
+  color: rgba(255, 255, 255, 0.5);
   pointer-events: none;
   transition: all 0.3s ease;
-  font-size: 20px;
+  font-size: 15px;
   padding-left: 10px; }
 
 ._button {

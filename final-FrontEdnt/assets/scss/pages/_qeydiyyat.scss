@@ -5,7 +5,7 @@
     margin-top: 20px;
     display: flex;
     padding: 24px;
-    border-radius: 8px;
+    border-radius: $border-radius-8px;
     margin-bottom: 88px;
     justify-content: space-between;
 
@@ -22,19 +22,19 @@
             margin-bottom: 48px;
 
             &__h2{
-                font-weight: 700;
+                font-weight: $font-weight-700;
                 font-family: $text-font;
-                font-size: 40px;
+                font-size: $font-40px;
                 margin-bottom: 8px;
                 line-height: 56px;
                 color: $color-hover;
                 margin: 0 0 8px;
             }
             &__p{
-                font-size: 16px;
+                font-size: $font-16px;
                 line-height: 28px;
                 font-family: $text-font;
-                color: silver;
+                color: $color-text-1;
             }
         }
 
@@ -43,7 +43,7 @@
             height: 58px;
             display: flex;
             justify-content: center;
-            border-radius: 8px;
+            border-radius: $border-radius-8px;
             border: 1px solid rgba(255,255,255,0.2);
             margin: 0 auto;
             cursor: pointer;
@@ -53,12 +53,12 @@
             &-1{
                 width: 156px;
                 height: 56px;
-                border-radius: 8px;
+                border-radius: $border-radius-8px;
                 color: $color-white;
                 text-align: center;
                 padding-top: 15px;
                 line-height: 24px;
-                font-weight: 500;
+                font-weight: $font-weight-500;
                 background-color: $color-body;
                 
 
@@ -66,12 +66,12 @@
             &-2{
                 width: 156px;
                 height: 56px;
-                border-radius: 8px;
+                border-radius: $border-radius-8px;
                 color: $color-white;
                 text-align: center;
                 padding-top: 15px;
                 line-height: 24px;
-                font-weight: 500;
+                font-weight: $font-weight-500;
 
 
 
@@ -89,8 +89,8 @@
 
                 width: 349px;
                 height: 56px;
-                border-radius: 8px;
-                border: 1px solid #22252C;
+                border-radius: $border-radius-8px;
+                border: 1px solid $color-body;
                 font-family: $text-font;
                 
             
@@ -98,8 +98,8 @@
             &-rigth{
                 width: 349px;
                 height: 56px;
-                border-radius: 8px;
-                border: 1px solid #22252C;
+                border-radius: $border-radius-8px;
+                border: 1px solid $color-body;
                 font-family: $text-font;
 
 
@@ -114,32 +114,36 @@
         height: 770px;
         padding: 0 48px;
         background-image: url(https://velocity.az/front/img/vector/Vector-lighten.svg);
-        border-radius: 8px;
+        border-radius: $border-radius-8px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #C9FFC7 !important;
+        background-color: $color-hover !important;
         background-repeat: no-repeat;
         flex-direction: column;
 
         &__h2{
-            font-size: 40px;
-            font-weight: 700;
+            font-size: $font-40px;
+            font-weight: $font-weight-700;
             line-height: 56px;
             margin-bottom: 24px;
-            color: #181C1F;
+            color: $color-button-color;
             font-family: $text-font;
         }
         &__a{
             padding: 14px 0;
-            border: 2px solid #181C1F;
-            border-radius: 8px;
+            border: 2px solid $color-button-color;
+            border-radius: $border-radius-8px;
             width: 100% !important;
-            font-weight: 500;
+            font-weight: $font-weight-700;
             font-family: $text-font;
             text-decoration: none;
-            color: #181C1F;
+            color: $color-button-color;
             text-align: center;
+            &:hover{
+
+                color: $color-button-color;
+            }
         }
         
 
@@ -154,7 +158,7 @@
     height: 100%;
     position: relative;
     background-color: $color-body;
-    border-radius: 8px;
+    border-radius: $border-radius-8px;
 
 
 
@@ -164,8 +168,8 @@
     width: 100%;
     height: 100%;
     border: none;
-    font-size: 17px;
-    border-radius: 5px;
+    font-size: $font-17px;
+    border-radius: $border-radius-5px;
     outline: none;
     background-color: $color-body;
     padding-left: 10px;
@@ -178,16 +182,16 @@
  input:focus ~ label,
  input:valid ~ label{
     transform:translateY(-8px);
-    font-size: 15px;
+    font-size: $font-15px;
 }
 .input-data label{
     position: absolute;
     left: 0;
     bottom: 17px;
-    color: grey;
+    color: $color-text-1;
     pointer-events: none;
     transition: all 0.3s ease;
-    font-size: 20px;
+    font-size: $font-15px;
     padding-left: 10px;
 }
 
@@ -203,7 +207,7 @@
     padding-top: 15px;
     cursor: pointer;
     &:hover{
-        background-color: rgba(201,255,199,0.8);
+        background-color: $color-button-hover;
         transition: .5s;
     }
 }
