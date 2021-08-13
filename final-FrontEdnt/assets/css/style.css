@@ -218,7 +218,7 @@ nav {
 .logo {
   font-size: 22px;
   line-height: 80px;
-  font-weight: bold;
+  font-weight: 600;
   display: inline-block; }
 
 nav ul {
@@ -455,7 +455,7 @@ nav ul li a {
     font-weight: 700;
     padding-top: 70px; }
   .Kalkulyator__p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 28px;
     width: 800px;
     margin-left: 14%;
@@ -546,12 +546,12 @@ nav ul li a {
             color: #C9FFC7; }
     .Kalkulyator .calc-right-side .hhh6 {
       margin-left: -370px;
-      color: rgba(255, 255, 255, 0.7); }
+      color: rgba(255, 255, 255, 0.5); }
 
 .service-list .form {
   float: left;
   margin-left: 10px;
-  color: rgba(255, 255, 255, 0.7); }
+  color: rgba(255, 255, 255, 0.5); }
 
 .service-list h6 {
   float: left; }
@@ -905,7 +905,7 @@ nav ul li a {
 .new {
   width: 100%;
   height: 750px;
-  background-color: #3B4046 !important;
+  background-color: #22252C !important;
   background-image: url(https://velocity.az/front/img/vector/Vector-news.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -925,7 +925,7 @@ nav ul li a {
       font-size: 17px;
       line-height: 25px;
       max-width: 800px;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(255, 255, 255, 0.5);
       margin-left: 63px;
       width: 300px; }
     .new__left__button {
@@ -973,7 +973,7 @@ nav ul li a {
             transition: .5s; }
         .new__rigth__col__rigth__p {
           font-size: 15px;
-          color: rgba(255, 255, 255, 0.7);
+          color: rgba(255, 255, 255, 0.5);
           margin-left: 43px; }
         .new__rigth__col__rigth__p2 {
           color: #C9FFC7;
@@ -1058,7 +1058,7 @@ nav ul li a {
     .about__left__p {
       font-size: 16px !important;
       line-height: 37px !important;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(255, 255, 255, 0.5);
       padding-left: 62px; }
   .about__rigth {
     width: 700px;
@@ -1082,7 +1082,7 @@ nav ul li a {
     text-align: center;
     padding-top: 50px; }
   .service__p {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.5);
     text-align: center;
     font-size: 18px; }
 
@@ -1107,7 +1107,7 @@ nav ul li a {
   font-weight: 600; }
 
 .service__col__p1 {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
   width: 300px;
   font-size: 18px;
   line-height: 32px;
@@ -1135,7 +1135,7 @@ nav ul li a {
   width: 90%;
   height: 330px;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 7px;
+  border-radius: 8px;
   margin-left: 4%;
   padding-left: 30px; }
   .div:hover {
@@ -1158,7 +1158,7 @@ nav ul li a {
     font-weight: 700;
     margin-top: 20px; }
   .news__p {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.5);
     font-size: 18px;
     text-align: center;
     line-height: 32px;
@@ -1412,7 +1412,7 @@ nav ul li a {
     text-align: center;
     font-size: 18px;
     line-height: 32px;
-    color: silver; }
+    color: rgba(255, 255, 255, 0.5); }
   .magazalar__p::after {
     content: "";
     width: 80px;

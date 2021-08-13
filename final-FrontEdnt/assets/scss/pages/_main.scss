@@ -4,10 +4,9 @@
     background-image: url(https://velocity.az/front/img/vector/Vector-slider.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #3B4046 !important;
+    background-color: $color-primary !important;
     margin-top: 40px;
-    // filter:opacity(60%);
-    background-color: #22252C;
+    background-color: $color-body;
     filter:drop-shadow(8px 8px 10px gray);
 
   }
@@ -60,7 +59,7 @@
     position: relative;
     &__p{
         color:$color-white;
-        font-weight: 700;
+        font-weight: $font-weight-700;
         font-size: 48px;
         line-height: 150%;
         margin-left: 60px;
@@ -92,7 +91,7 @@
     position: relative;
     &__p{
         color:$color-white;
-        font-weight: 700;
+        font-weight: $font-weight-700;
         font-size: 48px;
         line-height: 150%;
         margin-left: 60px;
@@ -123,7 +122,7 @@
     position: relative;
     &__p{
         color:$color-white;
-        font-weight: 700;
+        font-weight: $font-weight-700;
         font-size: 48px;
         line-height: 150%;
         margin-left: 60px;
@@ -154,7 +153,7 @@
     position: relative;
     &__p{
         color:$color-white;
-        font-weight: 700;
+        font-weight: $font-weight-700;
         font-size: 48px;
         line-height: 150%;
         margin-left: 60px;
